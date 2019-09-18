@@ -1,3 +1,5 @@
 FROM alpine:latest
 
-RUN env
+ARG ABV=134
+
+RUN env && echo ${ABV}
